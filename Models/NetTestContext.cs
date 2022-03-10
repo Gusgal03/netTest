@@ -10,6 +10,6 @@ namespace netTest.Models
 
         }
 
-        public DbSet<Catalogo> Catalogo{ get; set; }
+        public DbSet<Catalogo> Catalogo{ get; set; } //Catalogo de tipo DbSet
     }
 }
