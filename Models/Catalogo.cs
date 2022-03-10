@@ -7,5 +7,7 @@ namespace netTest.Models
         [Key] //llave primaria
         //campos de la base de datos
         public int IdCatalogo { get; set; }
+
+        public string Descripcion { get; set; }	
     }
 }
